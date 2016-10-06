@@ -1,6 +1,6 @@
 package com.mrdai.doccrawler;
 
-import com.mrdai.markdown.*;
+import com.mrdai.markj.*;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;

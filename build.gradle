@@ -8,6 +8,9 @@ targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven {
+        url "http://robertshome.com.cn:9081/nexus/repository/maven-public/"
+    }
 }
 
 dependencies {
@@ -15,6 +18,7 @@ dependencies {
     compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.21'
     compile group: 'org.jsoup', name: 'jsoup', version: '1.9.2'
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.4'
+    compile group: 'com.mrdai', name: 'markj-core', version: '0.1-SNAPSHOT'
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

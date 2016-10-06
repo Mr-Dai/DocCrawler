@@ -1,7 +1,7 @@
 package com.mrdai.doccrawler;
 
-import com.mrdai.markdown.ImageNode;
-import com.mrdai.markdown.github.LangCodeBlock;
+import com.mrdai.markj.ImageNode;
+import com.mrdai.markj.github.LangCodeBlock;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 

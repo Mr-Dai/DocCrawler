@@ -1,3 +1,10 @@
-rootProject.name = 'doc-crawler'
-rootProject.name = 'doc-crawler'
+rootProject.name = 'parent'
+
+include 'doc-crawler'
+include 'markj-core'
+include 'markj-parser'
+
+project(':doc-crawler').projectDir = "$rootDir/doc-crawler" as File
+project(':markj-core').projectDir = "$rootDir/markj/core" as File
+project(':markj-parser').projectDir = "$rootDir/markj/parser" as File
 

@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class HorizontalRule extends MarkdownNode {
+public class HorizontalRule extends MarkdownLeafNode {
     private static final HorizontalRule INSTANCE = new HorizontalRule();
 
     public static HorizontalRule get() {

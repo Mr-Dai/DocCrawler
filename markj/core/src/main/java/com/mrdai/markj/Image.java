@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class Image extends MarkdownNode {
+public class Image extends MarkdownLeafNode {
     private final String link;
     private final String altText;
     private final String optionalTitle;

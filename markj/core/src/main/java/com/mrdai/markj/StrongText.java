@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class StrongText extends MarkdownNode {
+public class StrongText extends MarkdownLeafNode {
     private final String surrounding;
     private final String text;
 

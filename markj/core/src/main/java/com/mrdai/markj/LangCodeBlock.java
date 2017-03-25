@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class LangCodeBlock extends MarkdownNode {
+public class LangCodeBlock extends MarkdownLeafNode {
     private final String lang;
     private final String text;
 

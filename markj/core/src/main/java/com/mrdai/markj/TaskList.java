@@ -13,7 +13,7 @@ public class TaskList extends UnorderedList {
         super.addChild(child);
     }
 
-    public static class Entry extends MarkdownNode {
+    public static class Entry extends MarkdownLeafNode {
         private final String text;
         private final boolean finished;
 

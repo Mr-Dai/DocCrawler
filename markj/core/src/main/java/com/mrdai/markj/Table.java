@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class Table extends ChildNode {
+public class Table extends MarkdownNode {
     private final int columnNum;
     private final String[] headers;
     private final Alignment[] alignments;
@@ -66,7 +66,7 @@ public class Table extends ChildNode {
         return builder.toString();
     }
 
-    public static class Row extends MarkdownNode {
+    public static class Row extends MarkdownLeafNode {
         private final String[] entries;
 
         public Row(String... entries) {

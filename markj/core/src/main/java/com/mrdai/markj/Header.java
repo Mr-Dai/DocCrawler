@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class Header extends MarkdownNode {
+public class Header extends MarkdownLeafNode {
     private final int level;
     private final String text;
 

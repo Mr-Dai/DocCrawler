@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class InlineCode extends MarkdownNode {
+public class InlineCode extends MarkdownLeafNode {
     private final String code;
 
     public InlineCode(String code) {

@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class LinkNode extends MarkdownNode {
+public class LinkNode extends MarkdownLeafNode {
     private final String text;
     private final String href;
 

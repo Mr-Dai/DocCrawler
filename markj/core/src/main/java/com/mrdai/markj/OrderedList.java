@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class OrderedList extends ChildNode {
+public class OrderedList extends MarkdownNode {
     private final int base;
 
     public OrderedList(int base) {

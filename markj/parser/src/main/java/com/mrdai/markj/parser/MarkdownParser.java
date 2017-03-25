@@ -48,7 +48,7 @@ public class MarkdownParser {
             return list;
         });
         appendElementAction(hasTagName("li"), (e) -> {
-            ChildNode entry = new ChildNode();
+            MarkdownNode entry = new MarkdownNode();
             for (Node item : e.childNodes())
                 entry.addChild(parse(item));
             return entry;

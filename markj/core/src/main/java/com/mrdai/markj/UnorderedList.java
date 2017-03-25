@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class UnorderedList extends ChildNode {
+public class UnorderedList extends MarkdownNode {
     private final char icon;
 
     public UnorderedList(char icon) {

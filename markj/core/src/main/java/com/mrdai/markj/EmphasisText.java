@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class EmphasisText extends MarkdownNode {
+public class EmphasisText extends MarkdownLeafNode {
     private final String surrounding;
     private final String text;
 

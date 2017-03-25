@@ -1,6 +1,6 @@
 package com.mrdai.markj;
 
-public class ParagraphNode extends ChildNode {
+public class ParagraphNode extends MarkdownNode {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();

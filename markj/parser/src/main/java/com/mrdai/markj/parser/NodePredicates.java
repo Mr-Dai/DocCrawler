@@ -2,7 +2,6 @@ package com.mrdai.markj.parser;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.nodes.Element;
-import org.jsoup.nodes.Node;
 
 import java.util.LinkedList;
 import java.util.function.Predicate;

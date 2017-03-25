@@ -1,7 +1,7 @@
 package com.mrdai.doccrawler.jenkov;
 
 import com.mrdai.markj.Image;
-import com.mrdai.markj.github.LangCodeBlock;
+import com.mrdai.markj.LangCodeBlock;
 import com.mrdai.markj.parser.MarkdownParser;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;

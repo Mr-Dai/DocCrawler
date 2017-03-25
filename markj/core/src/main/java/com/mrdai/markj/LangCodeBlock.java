@@ -1,6 +1,4 @@
-package com.mrdai.markj.github;
-
-import com.mrdai.markj.MarkdownNode;
+package com.mrdai.markj;
 
 public class LangCodeBlock extends MarkdownNode {
     private final String lang;

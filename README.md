@@ -6,4 +6,5 @@ JavaFX crawler for famous documentation pages
 
 - [x] Further modularize the current implementation.
 - [ ] Add strong robustness to `markj` module.
+- [ ] Export and publish `markj` project.
 - [ ] Add JavaFX GUI.
